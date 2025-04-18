@@ -19,6 +19,7 @@
     </div>
     <div class="portal-label">PORTAL</div>
 
+    
   </header>
 
   <!-- Welcome Banner -->
