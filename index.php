@@ -44,7 +44,7 @@
   <footer class="footer">
     <h4>Contact Us</h4>
     <p>📞 8643-3114</p>
-    <p>📧 <a href="mailto:inquiry@plp.edu.ph">inquiry@plp.edu.ph</a></p>
+    <p>📧 <a href="plpasig@plp.edu.ph">inquiry@plp.edu.ph</a></p>
     <p>📍 129 Alkalde Jose, Pasig, 1600 Metro Manila</p>
   </footer>
 

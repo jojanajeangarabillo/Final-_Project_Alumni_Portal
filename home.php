@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Academic Login - PLPasig</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="login.css" />
 </head>
 <body>
 
@@ -31,8 +30,11 @@
         <input type="email" placeholder="Email" required />
         <input type="password" placeholder="Password" required />
         <button type="submit">Log in</button>
+        <p>Don't have an account? <a href="register.php">Register</a></p>
+        
       </form>
-      <p>Don't have an account? <a href="register.html">Register</a></p>
+
+      
     </div>
   </div>
 
