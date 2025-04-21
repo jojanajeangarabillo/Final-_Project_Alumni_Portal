@@ -6,10 +6,20 @@
   <title>Academic Login - PLPasig</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="login.css" />
-
-  
 </head>
 <body>
+
+
+ <!-- Header Part -->
+ <header class="header">
+    <div class="header-left">
+      <img src="images/plp-logo.png" alt="PLP Logo" class="logo" />
+      <div>
+        <h1>Pamantasan Ng Lungsod Ng Pasig</h1>
+        <p>Alkalde Jose St. Kapasigan, Pasig City</p>
+      </div>
+    </div>
+    </header>
 
   <div class="login-container">
     <div class="illustration">
