@@ -25,9 +25,6 @@
         <!-- Left Column -->
         <div class="form-column">
           <div class="row">
-            <input type="text" placeholder="Student ID" required>
-          </div>
-          <div class="row">
             <input type="text" placeholder="Alumni ID" required>
           </div>
           <div class="row">
@@ -43,7 +40,7 @@
             <input type="text" placeholder="Last Name" required>
           </div>
           <div class="row gender-row">
-            <label>Gender*</label>
+            <label>Gender</label>
             <input type="radio" name="gender" value="Female" required> Female
             <input type="radio" name="gender" value="Male" required> Male
           </div>
