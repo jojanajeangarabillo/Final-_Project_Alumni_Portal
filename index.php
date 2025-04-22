@@ -10,18 +10,26 @@
 <body>
 
   <!-- Header Part -->
-  <header class="header">
-    <div class="header-left">
-      <img src="images/plp-logo.png" alt="PLP Logo" class="logo" />
-      <div>
-        <h1>Pamantasan Ng Lungsod Ng Pasig</h1>
-        <p>Alkalde Jose St. Kapasigan, Pasig City</p>
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="header-left">
+        <img src="images/plp-logo.png" alt="PLP Logo" class="logo" />
+        <div>
+          <h1>Pamantasan Ng Lungsod Ng Pasig</h1>
+          <p>Alkalde Jose St. Kapasigan, Pasig City</p>
+        </div>
       </div>
-    </div>
-    <div class="portal-label">PORTAL</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="alumni-list.php">Alumni List</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li class="portal-label">PORTAL</li>
+      </ul>
+     </div>
 
-    
-  </header>
+  </nav>
+  
 
   <!-- Welcome Banner -->
 <section class="banner" style="background-image: url('images/plpasigg.jpg');">
