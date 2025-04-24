@@ -1,14 +1,37 @@
+<?php
+session_start();
+include 'config.php';
+
+$error = '';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $password = md5($_POST['password']);
+    
+    $sql = "SELECT * FROM users WHERE username = '$email' AND password = '$password'";
+    $result = $conn->query($sql);
+    
+    if ($result->num_rows == 1) {
+        $row = $result->fetch_assoc();
+        $_SESSION['alumni_id'] = $row['alumni_id'];
+        $_SESSION['name'] = $row['name'];
+        $_SESSION['type'] = $row['type'];
+        
+        header("Location: index.php");
+    } else {
+        $error = "Invalid email or password";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Academic Login - PLPasig</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-
-
  <!-- Header Part -->
  <header class="header">
     <div class="header-left">
@@ -26,17 +49,16 @@
     </div>
     <div class="login-form">
       <h2>Log in</h2>
-      <form>
-        <input type="email" placeholder="Email" required />
-        <input type="password" placeholder="Password" required />
+      <?php if(!empty($error)): ?>
+        <div style="color: red; margin-bottom: 15px;"><?php echo $error; ?></div>
+      <?php endif; ?>
+      <form method="POST" action="">
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="password" name="password" placeholder="Password" required />
         <button type="submit">Log in</button>
         <p>Don't have an account? <a href="register.php">Register</a></p>
-        
       </form>
-
-      
     </div>
   </div>
-
 </body>
 </html>
