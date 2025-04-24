@@ -28,7 +28,6 @@ $events_result = $conn->query($events_query);
       </div>
       <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="#">Events</a></li>
         <li><a href="alumni-list.php">Alumni List</a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <?php if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>

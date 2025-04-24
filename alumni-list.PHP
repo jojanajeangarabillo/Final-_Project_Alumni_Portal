@@ -35,7 +35,6 @@ $result = mysqli_query($conn, $query);
       </div>
       <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="#">Events</a></li>
         <li><a href="alumni-list.php">Alumni List</a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <?php if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
