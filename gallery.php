@@ -37,7 +37,6 @@
   
   <div class="gallery-container">
 
-    <!-- CARD 1 -->
     <div class="gallery-box">
       <img src="images/gawad_parangal.jpg" alt="Gallery Image" />
       <div class="gallery-text">
@@ -50,7 +49,6 @@
       </div>
     </div>
 
-    <!-- CARD 2 -->
     <div class="gallery-box">
       <img src="images/plpanniv.jpg" alt="Gallery Image" />
       <div class="gallery-text">
@@ -63,7 +61,6 @@
       </div>
     </div>
 
-    <!-- CARD 3 -->
     <div class="gallery-box">
       <img src="images/gawad_parangal.jpg" alt="Gallery Image" />
       <div class="gallery-text">
@@ -76,7 +73,6 @@
       </div>
     </div>
 
-    <!-- CARD 4 -->
     <div class="gallery-box">
       <img src="images/plpanniv.jpg" alt="Gallery Image" />
       <div class="gallery-text">
