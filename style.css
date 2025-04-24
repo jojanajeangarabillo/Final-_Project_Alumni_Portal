@@ -478,7 +478,7 @@ li a{
 
 
 .gallery-box {
-  background-color: #9bd1fb;
+  background-color: #e1f2ff;
   border-radius: 25px;
   width: 500px;
   padding: 20px;
@@ -488,6 +488,7 @@ li a{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
   min-height: 200px;
+  
 }
 
 
@@ -498,6 +499,7 @@ li a{
   object-fit: cover;
   background-color: #fff;
   flex-shrink: 0;
+  
 }
 
 
@@ -540,23 +542,6 @@ li a{
 
 .read-more-btn:hover {
   background-color: #00276b;
-}
-
-
-.load-more {
-  margin-top: 40px;
-  background-color: #7ec5f9;
-  border: none;
-  padding: 10px 30px;
-  font-size: 14px;
-  font-weight: bold;
-  color: white;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.load-more:hover {
-  background-color: #5daeea;
 }
 
 
