@@ -70,15 +70,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <!-- Header Part -->
- <header class="header">
-    <div class="header-left">
-      <img src="images/plp-logo.png" alt="PLP Logo" class="logo" />
-      <div>
-        <h1>Pamantasan Ng Lungsod Ng Pasig</h1>
-        <p>Alkalde Jose St. Kapasigan, Pasig City</p>
+    <nav class="navbar">
+    <div class="navdiv">
+      <div class="header-left">
+        <img src="images/plp-logo.png" alt="PLP Logo" class="logo" />
+        <div>
+          <h1>Pamantasan Ng Lungsod Ng Pasig</h1>
+          <p>Alkalde Jose St. Kapasigan, Pasig City</p>
+        </div>
       </div>
-    </div>
-    </header>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="alumni-list.php">Alumni List</a></li>
+        <li><a href="#">Gallery</a></li>
+        <?php if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
+          <li><a href="logout.php">Logout</a></li>
+        <?php else: ?>
+          <li><a href="home.php">Login</a></li>
+        <?php endif; ?>
+        <li class="portal-label">PORTAL</li>
+      </ul>
+     </div>
+   </nav>
 <div class="container">
   <div class="form-input">
     <h2>Register</h2>

@@ -28,27 +28,26 @@ $events_result = $conn->query($events_query);
       </div>
       <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="events.php">Events</a></li>
+        <li><a href="#">Events</a></li>
         <li><a href="alumni-list.php">Alumni List</a></li>
         <li><a href="gallery.php">Gallery</a></li>
-        <?php if(isset($_SESSION['alumni_id'])): ?>
-          <li><a href="job.php">Job</a></li>
-          <li><a href="profile.php">Profile</a></li>
+        <?php if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
           <li><a href="logout.php">Logout</a></li>
         <?php else: ?>
-          <li><a href="home.php" class="portal-label">PORTAL</a></li>
+          <li><a href="home.php">Login</a></li>
         <?php endif; ?>
+        <li class="portal-label">PORTAL</li>
       </ul>
      </div>
-  </nav>
+   </nav>
   
   <!-- Welcome Banner -->
   <section class="banner" style="background-image: url('images/plpasigg.jpg');">
     <div class="overlay">
-      <h2>WELCOME ALUMNI!!</h2>
+    <h2 style="color: white;">WELCOME ALUMNI!!</h2>
       <div class="banner-buttons">
         <?php if(!isset($_SESSION['alumni_id'])): ?>
-          <a href="home.php" class="btn join-btn">JOIN NOW</a>
+          <a href="register.php" class="btn join-btn">JOIN NOW</a>
         <?php else: ?>
           <a href="profile.php" class="btn join-btn">MY PROFILE</a>
         <?php endif; ?>

@@ -1,0 +1,105 @@
+.gallery-section {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.gallery-section h2 {
+  color: #003893;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+/* Flex container for cards */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+/* Card Style */
+.gallery-box {
+  background-color: #9bd1fb;
+  border-radius: 25px;
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  min-height: 200px;
+}
+
+/* Image Style */
+.gallery-box img {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  object-fit: cover;
+  background-color: #fff;
+  flex-shrink: 0;
+}
+
+/* Text block inside card */
+.gallery-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+/* Title */
+.gallery-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #003893;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.gallery-text p {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Read more button */
+.read-more-btn {
+  background-color: #003893;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: start;
+  margin-top: auto;
+}
+
+.read-more-btn:hover {
+  background-color: #00276b;
+}
+
+/* Load more button */
+.load-more {
+  margin-top: 40px;
+  background-color: #7ec5f9;
+  border: none;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: #5daeea;
+}

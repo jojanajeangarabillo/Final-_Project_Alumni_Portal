@@ -37,7 +37,7 @@ $result = mysqli_query($conn, $query);
         <li><a href="index.php">Home</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="alumni-list.php">Alumni List</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="gallery.php">Gallery</a></li>
         <?php if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
           <li><a href="logout.php">Logout</a></li>
         <?php else: ?>
@@ -90,6 +90,13 @@ $result = mysqli_query($conn, $query);
         <p style="text-align: center; width: 100%;">No alumni found</p>
       <?php endif; ?>
    </div>
+
+   <footer class="footer">
+    <h4>Contact Us</h4>
+    <p>📞 8643-3114</p>
+    <p>📧 <a href="plpasig@plp.edu.ph">inquiry@plp.edu.ph</a></p>
+    <p>📍 129 Alkalde Jose, Pasig, 1600 Metro Manila</p>
+  </footer>
 
     </body>
 </html>
