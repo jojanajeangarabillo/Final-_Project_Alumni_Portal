@@ -9,6 +9,7 @@ body {
   font-family: 'Arial', sans-serif;
   background: #ffffff;
   color: #000;
+  height: 100%;
 }
 
 
@@ -114,6 +115,7 @@ body {
   padding: 30px;
   color: white;
   position: relative;
+  overflow: hidden;
 }
 
 .footer::before {
@@ -670,6 +672,12 @@ li a{
 
 
 /* Profile */
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .profile-banner{
   background: url('plpasigg.jpg') center/cover no-repeat;
