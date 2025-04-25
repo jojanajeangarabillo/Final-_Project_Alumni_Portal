@@ -21,9 +21,10 @@
         <li><a href="#">Events</a></li>
         <li><a href="alumni-list.php">Alumni List</a></li>
         <li><a href="gallery.php">Gallery</a></li>
-        <li><a href="job.php">Job</a></li>
+        <li><a href="job.php">Jobs</a></li>
         <li><a href="#">Profile</a></li>
         <li><a href="#">Logout</a></li>
+        <li class="portal-label">PORTAL</li>
       </ul>
      </div>
    </nav>
@@ -34,9 +35,10 @@
 </div>
 
 
-<div class="search-container">
-  <input type="text" placeholder="Search" class="search-input" />
-</div>
+<form class="search-job" method="GET" action="">
+      <input type="text" name="search" placeholder="Search"/>
+      <button type="submit"><span>&#128269</span></button>
+   </form>
 
 
 <div class="job-card">
