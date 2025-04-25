@@ -31,61 +31,66 @@
      </div>
    </nav>
 
-   <section class="gallery-section">
-  <h2>GALLERY</h2>
+   <section style="background-image:url('images/plpasigg.jpg');">
+         <section class="gallery-section">
+          <h2>GALLERY</h2>
   
-  <div class="gallery-container">
+          <div class="gallery-container">
 
-    <div class="gallery-box">
-      <img src="images/gawad_parangal.jpg" alt="Gallery Image" />
-      <div class="gallery-text">
-        <h3>PLP Celebrates 25th Founding Anniversary with Gawad Parangal 2025</h3>
-        <p>
-          Pasig City – March 20, 2025 – The Pamantasan ng Lungsod ng Pasig (PLP) proudly celebrated a historic milestone 
-          with its 25th Founding Anniversary, highlighted by the prestigious Gawad Parangal 2025.
-        </p>
-        <button class="read-more-btn">Read More</button>
-      </div>
-    </div>
+            <div class="gallery-box">
+              <img src="images/gawad_parangal.jpg" alt="Gallery Image" />
+              <div class="gallery-text">
+                <h3>PLP Celebrates 25th Founding Anniversary with Gawad Parangal 2025</h3>
+                <p>
+                  Pasig City – March 20, 2025 – The Pamantasan ng Lungsod ng Pasig (PLP) proudly celebrated a historic milestone 
+                  with its 25th Founding Anniversary, highlighted by the prestigious Gawad Parangal 2025.
+                </p>
+                <button class="read-more-btn">Read More</button>
+              </div>
+            </div>
 
-    <div class="gallery-box">
-      <img src="images/plpanniv.jpg" alt="Gallery Image" />
-      <div class="gallery-text">
-        <h3>PLP 25th Founding Anniversary</h3>
-        <p>
-          short description short description short description short description
-          short description short description short description short description
-        </p>
-        <button class="read-more-btn">Read More</button>
-      </div>
-    </div>
+            <div class="gallery-box">
+              <img src="images/plpanniv.jpg" alt="Gallery Image" />
+              <div class="gallery-text">
+                <h3>PLP 25th Founding Anniversary</h3>
+                <p>
+                  short description short description short description short description
+                  short description short description short description short description
+                </p>
+                <button class="read-more-btn">Read More</button>
+              </div>
+            </div>
 
-    <div class="gallery-box">
-      <img src="images/gawad_parangal.jpg" alt="Gallery Image" />
-      <div class="gallery-text">
-        <h3>Pamantasan ng Lungsod ng Pasig Celebrates 25th Founding Anniversary with Gawad Parangal 2025</h3>
-        <p>
-          Pasig City – March 20, 2025 – The Pamantasan ng Lungsod ng Pasig (PLP) proudly celebrated a historic milestone 
-          with its 25th Founding Anniversary, highlighted by the prestigious Gawad Parangal 2025.
-        </p>
-        <button class="read-more-btn">Read More</button>
-      </div>
-    </div>
+            <div class="gallery-box">
+              <img src="images/gawad_parangal.jpg" alt="Gallery Image" />
+              <div class="gallery-text">
+                <h3>Pamantasan ng Lungsod ng Pasig Celebrates 25th Founding Anniversary with Gawad Parangal 2025</h3>
+                <p>
+                  Pasig City – March 20, 2025 – The Pamantasan ng Lungsod ng Pasig (PLP) proudly celebrated a historic milestone 
+                  with its 25th Founding Anniversary, highlighted by the prestigious Gawad Parangal 2025.
+                </p>
+                <button class="read-more-btn">Read More</button>
+              </div>
+            </div>
 
-    <div class="gallery-box">
-      <img src="images/plpanniv.jpg" alt="Gallery Image" />
-      <div class="gallery-text">
-        <h3>PLP 25th Founding Anniversary</h3>
-        <p>
-          short description short description short description short description
-          short description short description short description short description
-        </p>
-        <button class="read-more-btn">Read More</button>
-      </div>
-    </div>
+            <div class="gallery-box">
+              <img src="images/plpanniv.jpg" alt="Gallery Image" />
+              <div class="gallery-text">
+                <h3>PLP 25th Founding Anniversary</h3>
+                <p>
+                  short description short description short description short description
+                  short description short description short description short description
+                </p>
+                <button class="read-more-btn">Read More</button>
+              </div>
+            </div>
 
-  </div>
-</section>
+          </div>
+      </section>
+
+  </section>
+
+  
 
 <footer class="footer">
     <h4>Contact Us</h4>
